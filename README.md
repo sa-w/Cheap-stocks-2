@@ -34,7 +34,15 @@ Modules used include the following
 <li>Csvtojson - Module used for parsing csv into json array </li>
 <li>chalk - Used in adding text colour within the command line </li>
 <li>Boxen - Used for defining borders, alignment and padding within the command line </li>
+<li>Http - Used for making api calls using the http protocol </li>
 </ol>
+
+<b>Data structures used</b>
+<ol>
+<li>Objects</li>
+<li>Arrays</li>
+</ol>
+
 </p>
 <h3 id="installation"><b>Installation (This app has been developed and tested on a machine that runs Microsoft Windows OS. Performance may differ in other OS) </b></h3>
 
@@ -60,7 +68,11 @@ Modules used include the following
 <hr>
 
 <p>Run below commands in your command line terminal <ol>
-<li>cheap-stocks -a      (Loads about section)</li>
-<li>cheap-stocks -v DZD  (Checks whether the provided value i.e. DZD is supported in the application)</li>
-<li>cheap-stocks -h      (Loads help section)</li>
+<li>cheap-stocks -c         (List all supported currencies)</li>
+<li>cheap-stocks -l         (Lists all supported languages)</li>
+<li>cheap-stocks -p EUR,en  (Performs currency convertion using EUR as the base currency)</li>
+<li>cheap-stocks -p EUR,zi  (Example error handling where an unsupported language parameter is provided)</li>
+
+<b>Important - Provided api keys require a paid subscription plan for currency convertion</b>
+
 </ol> </p>
